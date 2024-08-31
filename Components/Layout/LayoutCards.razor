@@ -1,0 +1,13 @@
+﻿@using frontend.Components.Shared.ColumnCards
+@using frontend.Components.Shared.RowCards
+<main>
+    <ColumnCards/>
+    <ColumnCards/>
+    <RowCards Title="@Title1"/>
+    <RowCards Title="@Title2"/>
+</main>
+
+@code {
+    private const string Title1 = "Los Más Vendidos en sus Accesorios";
+    private const string Title2 = "Las mejores selecciones para Colombia";
+}

@@ -1,0 +1,9 @@
+﻿main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 1;
+    position: absolute;
+    top: 400px;
+    margin-left: 20px;
+}

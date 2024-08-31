@@ -1,0 +1,139 @@
+﻿#navbar{
+    box-sizing: border-box;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+#nav-left{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+}
+.logo{
+    height: 40px;
+    width: 112px;
+}
+.logo-box{
+    width: fit-content;
+    margin-left: 15px;
+    padding-top: 4px;
+}
+.logo-link{
+   display: inline-block;
+    padding: 1px 8px 0 6px;
+    height: 50px;
+}
+.logo-link:hover{
+    outline: 1px solid white;
+}
+.location-box{
+    display: flex;
+    justify-content: center;
+    margin-left: 6px;
+}
+.location-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 2px 5px 0;
+    padding: 0 9px;
+    
+}
+.location-content:hover{
+    outline: 1px solid white;
+}
+.location-text{
+    display: flex;
+    flex-direction: column;
+    line-height: 15px;
+}
+.geo-op{
+    margin-top: 10px;
+    margin-right: 2px;
+    font-size: 17.5px;
+}
+.font-bd{
+    font-size: 14px;
+    font-weight: 700;
+}
+.nav-search{
+    margin: 0 18px;
+    padding: 10px 4px;
+    flex-grow: 1;
+}
+.nav-search form{
+    display: flex;
+}
+.dropdown{
+    padding-left: 5px;
+    background-color: #929292;
+    height: 40px;
+    width: 52px;
+    border-radius: 5px 0 0 5px;
+}
+.dropdown-btn{
+    text-align: center;
+    padding-top: 30%;
+}
+.dropdown-btn:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    color: black;
+}
+.nav-fill{
+    flex-grow: 1;
+}
+.nav-fill input{
+    height: 40px;
+    width: 100%;
+}
+
+.nav-right button{
+    height: 40px;
+    width: 45px;
+    background-color: #febd69;
+    border-radius: 0 5px 5px 0;
+    border: none;
+}
+.nav-right i{
+    font-size: 20px;
+}
+#nav-right{
+    height: 60px;
+}
+#nav-tools{
+    padding-top: 3px;
+    margin-top: 2px;
+    display: flex;
+}
+.nav-right-pd-items{
+    padding: 0 9px;
+}
+.lang{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+}
+.account{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.orders{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.hover:hover{
+    outline: 1px solid white;
+}

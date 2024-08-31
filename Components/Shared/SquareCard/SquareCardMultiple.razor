@@ -1,0 +1,24 @@
+﻿<div class="container">
+    <h1>@Title</h1>
+    <div class="images-container">
+        @foreach (var image in Images)
+        {
+            <div class="img-box">
+                <img src="@image.Value" alt="@image.Key"/>
+                <p>@image.Key</p>
+            </div> 
+        }
+    </div>
+    <p class="sub-title">@SubTitle</p>
+</div>
+@code {
+    [Parameter]
+    public required string Title { get; set; }
+
+    [Parameter]
+    public required Dictionary<string, string> Images { get; set; }
+
+    [Parameter]
+    public required string SubTitle { get; set; }
+    
+}

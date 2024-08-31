@@ -1,0 +1,22 @@
+﻿.container{
+    width: 350px;
+    height: 420px;
+    padding: 20px;
+    background-color: white;
+}
+h1{
+    margin-top: 0;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+p{
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #007185;
+    cursor: pointer;
+}
+p:hover{
+    color: coral;
+}

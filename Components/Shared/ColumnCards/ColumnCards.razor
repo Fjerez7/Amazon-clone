@@ -1,0 +1,21 @@
+﻿@using frontend.Components.Shared.SquareCard
+
+<div class="container">
+    <SquareCardSimple Title="FREE Shipping" SubTitle="Learn more" Image="images/imgsForCard/fastDelivery.jpg"/>
+    <SquareCardMultiple Title="Refresh your space" SubTitle="See more" Images="@Images"/>
+    <SquareCardMultiple Title="Great prices" SubTitle="See more" Images="@Images"/>
+    <SquareCardSimple Title="Deals in PCs" SubTitle="Shop now" Image="images/imgsForCard/pcs.jpg"/>
+</div>
+
+@code {
+    private Dictionary<string, string> Images = new Dictionary<string, string>();
+    const string IMG_PATH = "images/imgsForCard/";
+    
+    protected override void OnInitialized()
+    {
+        Images.Add("Image 1", $"{IMG_PATH}pcs.jpg");
+        Images.Add("Image 2", $"{IMG_PATH}prod.jpg");
+        Images.Add("Image 3", $"{IMG_PATH}products.jpg");
+        Images.Add("Image 4", $"{IMG_PATH}sendpackages.jpg");
+    }
+}

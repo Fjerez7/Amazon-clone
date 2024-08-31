@@ -1,0 +1,20 @@
+﻿<div class="container">
+    <h1>@Title</h1>
+    <div>
+        <img src="@Image" alt="image"/>
+    </div>
+    <p>@SubTitle</p>
+</div>
+
+@code
+{
+    [Parameter]
+    public required string Title { get; set; }
+    
+    [Parameter]
+    public required string Image { get; set; }
+    
+    [Parameter]
+    public required string SubTitle { get; set; }
+}
+

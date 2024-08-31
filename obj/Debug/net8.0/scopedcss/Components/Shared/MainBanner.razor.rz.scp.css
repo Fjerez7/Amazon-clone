@@ -1,0 +1,24 @@
+
+
+#img-container[b-hggry7df2p]{
+    background-color: #ffc267;]
+    width: 1500px;
+    height: 700px;
+    position: relative;
+}
+
+.gradient[b-hggry7df2p]{
+    height: 120%;
+    width: 100%;
+    background-image: linear-gradient(to top, #e3e6e6, transparent);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+img[b-hggry7df2p]{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}

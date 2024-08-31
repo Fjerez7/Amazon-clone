@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Fabian Jerez\\Desktop\\AMAZON_CLONE\\frontend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\frontend.bundle.scp.css",
+      "PackagePath": "staticwebassets\\frontend.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Fabian Jerez\\Desktop\\AMAZON_CLONE\\frontend\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Fabian Jerez\\Desktop\\AMAZON_CLONE\\frontend\\wwwroot\\images\\amazon-logo-white.png",
+      "PackagePath": "staticwebassets\\images\\amazon-logo-white.png"
+    },
+    {
+      "Id": "C:\\Users\\Fabian Jerez\\Desktop\\AMAZON_CLONE\\frontend\\wwwroot\\images\\amazonLogo.png",
+      "PackagePath": "staticwebassets\\images\\amazonLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\Fabian Jerez\\Desktop\\AMAZON_CLONE\\frontend\\wwwroot\\images\\imgsForCard\\fastDelivery.jpg",
+      "PackagePath": "staticwebassets\\images\\imgsForCard\\fastDelivery.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fabian Jerez\\Desktop\\AMAZON_CLONE\\frontend\\wwwroot\\images\\imgsForCard\\pcs.jpg",
+      "PackagePath": "staticwebassets\\images\\imgsForCard\\pcs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fabian Jerez\\Desktop\\AMAZON_CLONE\\frontend\\wwwroot\\images\\imgsForCard\\prod.jpg",
+      "PackagePath": "staticwebassets\\images\\imgsForCard\\prod.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fabian Jerez\\Desktop\\AMAZON_CLONE\\frontend\\wwwroot\\images\\imgsForCard\\products.jpg",
+      "PackagePath": "staticwebassets\\images\\imgsForCard\\products.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fabian Jerez\\Desktop\\AMAZON_CLONE\\frontend\\wwwroot\\images\\imgsForCard\\sendpackages.jpg",
+      "PackagePath": "staticwebassets\\images\\imgsForCard\\sendpackages.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Fabian Jerez\\Desktop\\AMAZON_CLONE\\frontend\\wwwroot\\images\\main-banner.jpg",
+      "PackagePath": "staticwebassets\\images\\main-banner.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.frontend.props",
+      "PackagePath": "build\\frontend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.frontend.props",
+      "PackagePath": "buildMultiTargeting\\frontend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.frontend.props",
+      "PackagePath": "buildTransitive\\frontend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.frontend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

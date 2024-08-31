@@ -1,0 +1,15 @@
+
+#content-layout[b-mtc92q19jk]{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 2000px;
+}
+.content[b-mtc92q19jk]{
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}

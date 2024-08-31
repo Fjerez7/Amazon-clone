@@ -1,0 +1,15 @@
+﻿
+#content-layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 2000px;
+}
+.content{
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}

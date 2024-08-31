@@ -1,0 +1,22 @@
+.container[b-s8g8368wm8]{
+    width: 350px;
+    height: 420px;
+    padding: 20px;
+    background-color: white;
+}
+h1[b-s8g8368wm8]{
+    margin-top: 0;
+}
+img[b-s8g8368wm8]{
+    height: 300px;
+    width: 300px;
+}
+p[b-s8g8368wm8]{
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #007185;
+    cursor: pointer;
+}
+p:hover[b-s8g8368wm8]{
+    color: coral;
+}

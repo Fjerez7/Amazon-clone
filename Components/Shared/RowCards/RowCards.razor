@@ -1,0 +1,31 @@
+﻿<div class="container">
+    <h1>@Title</h1>
+    
+    <div class="container_images">
+        @foreach (var image in Images)
+        {
+            <div class="image_box">
+                <img src="@image.Value" alt="@image.Key"/>
+            </div>    
+        }
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public required string Title { get; set; }
+    
+    private Dictionary<string, string> Images = new Dictionary<string, string>();
+    const string IMG_PATH = "images/imgsForCard/";
+    
+    protected override void OnInitialized()
+    {
+        Images.Add("Image 1", $"{IMG_PATH}pcs.jpg");
+        Images.Add("Image 2", $"{IMG_PATH}prod.jpg");
+        Images.Add("Image 3", $"{IMG_PATH}products.jpg");
+        Images.Add("Image 4", $"{IMG_PATH}sendpackages.jpg");
+        Images.Add("Image 5", $"{IMG_PATH}fastDelivery.jpg");
+        Images.Add("Image 6", $"{IMG_PATH}pcs.jpg");
+        Images.Add("Image 7", $"{IMG_PATH}pcs.jpg");
+    }
+}
